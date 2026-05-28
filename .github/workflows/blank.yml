@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+# If you have a file named something like:
+# "MIT License  Copyright (c) [year] [your-name]..."
+
+# Rename it to:
+git mv "MIT License  Copyright (c) [year] [your-name]..." LICENSE
+git commit -m "Fix: Rename license file to valid filename"
+git push
